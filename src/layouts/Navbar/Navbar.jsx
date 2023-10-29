@@ -9,12 +9,12 @@ const Navbar = () => {
       <span className={s.logo}>
         FastTafting
       </span>
-      <nav className={s.menu}>
-        <ul>
-          <li className={s.item}><NavLink to="/" className={setActive} >Главная</NavLink></li>
-          <li className={s.item}><NavLink to="/aboutUs" className={setActive}>О нас</NavLink></li>
-          <li className={s.item}><NavLink to="/portfolio" className={setActive}>Портфолио</NavLink></li>
-          <li className={s.item}><NavLink to="/reviews" className={setActive}>Отзывы</NavLink></li>
+      <nav >
+        <ul className={s.menu}>
+          <li><NavLink to="/" className={setActive} >Главная</NavLink></li>
+          <li><NavLink to="/aboutUs" className={setActive}>О нас</NavLink></li>
+          <li><NavLink to="/portfolio" className={setActive}>Портфолио</NavLink></li>
+          <li><NavLink to="/reviews" className={setActive}>Отзывы</NavLink></li>
         </ul>
       </nav>
     </header>
