@@ -1,7 +1,7 @@
-import AboutUs from "./Pages/AboutUs/AboutUs";
-import Home from "./Pages/Home/Home";
-import Portfolio from "./Pages/Portfolio/Portfolio";
-import Reviews from "./Pages/Reviews/Reviews";
+import AboutUs from "./pages/AboutUs/AboutUs";
+import Home from "./pages/Home/Home";
+import Portfolio from "./pages/Portfolio/Portfolio";
+import Reviews from "./pages/Reviews/Reviews";
 import Footer from "./layouts/Footer/Footer";
 import Navbar from "./layouts/Navbar/Navbar";
 import { Routes, Route } from "react-router-dom";

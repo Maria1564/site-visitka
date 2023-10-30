@@ -1,6 +1,30 @@
 import React from "react";
 import s from "./HomeAbout.module.css";
 import { Button } from "../../../components/ui";
+import TeamItems from "./TeamItems/TeamItems";
+
+const team = [
+  {
+    id: 1,
+    src: require("../../../assets/img/Лёха.png"),
+    alt: "Лёха",
+  },
+  {
+    id: 2,
+    src: require("../../../assets/img/Денис.png"),
+    alt: "Денис",
+  },
+  {
+    id: 3,
+    src: require("../../../assets/img/Катя.png"),
+    alt: "Катя",
+  },
+  {
+    id: 4,
+    src: require("../../../assets/img/Димас.png"),
+    alt: "Димас",
+  },
+];
 
 const HomeAbout = () => {
   return (
@@ -15,40 +39,11 @@ const HomeAbout = () => {
           </p>
 
           <div className={s.team}>
-            <div>
-              <img
-                src={require("../../../assets/img/Лёха.png")}
-                alt="Лёха"
-                className={s.avatar}
-              />
-              <p className={s.name}>Лёха</p>
-            </div>
-            <div>
-              <img
-                src={require("../../../assets/img/Денис.png")}
-                alt="Денис"
-                className={s.avatar}
-              />
-              <p className={s.name}>Денис</p>
-            </div>
-            <div>
-              <img
-                src={require("../../../assets/img/Катя.png")}
-                alt="Катя"
-                className={s.avatar}
-              />
-              <p className={s.name}>Катя</p>
-            </div>
-            <div>
-              <img
-                src={require("../../../assets/img/Димас.png")}
-                alt="Димас"
-                className={s.avatar}
-              />
-              <p className={s.name}>Димас</p>
-            </div>
+            {team.map(({id, src, alt}) => (
+              <TeamItems key={id} src={src} alt={alt} />
+            ))}
           </div>
-          <Button text="Подробнее" to="aboutUs"/>
+          <Button text="Подробнее" to="aboutUs" />
         </div>
       </div>
     </section>
