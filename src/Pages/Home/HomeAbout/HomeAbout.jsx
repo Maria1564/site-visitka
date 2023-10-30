@@ -1,5 +1,6 @@
 import React from "react";
 import s from "./HomeAbout.module.css";
+import { Button } from "../../../components/ui";
 
 const HomeAbout = () => {
   return (
@@ -47,7 +48,7 @@ const HomeAbout = () => {
               <p className={s.name}>Димас</p>
             </div>
           </div>
-          {/* <Button/> */}
+          <Button text="Подробнее" to="aboutUs"/>
         </div>
       </div>
     </section>
