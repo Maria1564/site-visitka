@@ -28,7 +28,7 @@ const team = [
 
 const HomeAbout = () => {
   return (
-    <section className={s.aboutUs}>
+    <section className={s.home_aboutUs}>
       <div className="container">
         <div className={s.wrapper}>
           <h2 className={`section_title ${s.dark}`}>О нас</h2>
@@ -40,6 +40,7 @@ const HomeAbout = () => {
 
           <div className={s.team}>
             {team.map(({id, src, alt}) => (
+            
               <TeamItems key={id} src={src} alt={alt} />
             ))}
           </div>

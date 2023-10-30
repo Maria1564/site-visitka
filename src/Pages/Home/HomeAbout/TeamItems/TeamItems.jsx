@@ -3,9 +3,9 @@ import s from "./TeamItems.module.css"
 import { Avatar } from "../../../../components/ui";
 
 
-const TeamItems = ({ key, src, alt }) => {
+const TeamItems = ({src, alt }) => {
   return (
-    <div key={key}>
+    <div>
       <Avatar src={src} alt={alt} />
       <p className={s.name}>{alt}</p>
     </div>

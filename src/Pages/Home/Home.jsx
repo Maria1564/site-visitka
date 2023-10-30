@@ -1,6 +1,7 @@
 import React from "react";
 import s from "./Home.module.css";
 import HomeAbout from "./HomeAbout/HomeAbout";
+import HomePortfolio from "./HomePortfolio/HomePortfolio";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
         </div>
       </div>
       <HomeAbout/>
+      <HomePortfolio/>
     </div>
   );
 };
