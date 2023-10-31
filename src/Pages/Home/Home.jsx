@@ -2,6 +2,7 @@ import React from "react";
 import s from "./Home.module.css";
 import HomeAbout from "./HomeAbout/HomeAbout";
 import HomePortfolio from "./HomePortfolio/HomePortfolio";
+import HomeReviews from "./HomeReviews/HomeReviews";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
       </div>
       <HomeAbout/>
       <HomePortfolio/>
+      <HomeReviews />
     </div>
   );
 };

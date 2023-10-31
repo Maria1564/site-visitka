@@ -42,7 +42,7 @@ const HomePortfolio = () => {
   return (
     <section className={s.home_portfolio}>
       <div className="container">
-        <div className={s.wrapper}>
+        <div className="wrapper">
           <h2 className="section_title">Портфолио</h2>
           <div className={s.cards}>
                 {cards.map(({id, src, alt})=>(

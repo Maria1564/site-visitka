@@ -1,0 +1,15 @@
+.home_reviews {
+    background-color: var(--color-grey);
+}
+
+.dark {
+    color:var(--color-text);
+}
+
+.reviews {
+    margin: 138px 0 62px;
+    display: grid;
+    grid-template-columns: repeat(3, 420px);
+    gap: 60px;
+}
+

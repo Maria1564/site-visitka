@@ -1,14 +1,7 @@
-
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 425px);
     row-gap: 76px;
     column-gap: 84px;
-    margin: 110px calc(48px - 12px)  102px;
+    margin: 110px 0  102px;
 }

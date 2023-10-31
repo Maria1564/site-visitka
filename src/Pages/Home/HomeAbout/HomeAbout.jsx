@@ -30,7 +30,7 @@ const HomeAbout = () => {
   return (
     <section className={s.home_aboutUs}>
       <div className="container">
-        <div className={s.wrapper}>
+        <div className="wrapper">
           <h2 className={`section_title ${s.dark}`}>О нас</h2>
 
           <p className={s.description}>
