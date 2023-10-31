@@ -60,6 +60,13 @@ h2 {
     font-size: 32px;
 }
 
+p, 
+h1, 
+h2, 
+h3{
+    word-break: break-word; 
+}
+
 section  {
     padding-top: 70px;
     padding-bottom: 65px;
@@ -69,7 +76,7 @@ section > h2,
 .section_title{
     max-width: 280px;
     text-align: center;
-    word-break: break-all; 
+    word-break: break-word; 
     color: var(--color-text-light);
 }
 

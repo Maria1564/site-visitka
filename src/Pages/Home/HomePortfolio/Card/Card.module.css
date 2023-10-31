@@ -37,7 +37,7 @@
     display: flex;
     justify-content: center;
     align-items:center;
-    word-break: break-all; /* Перенос слов */ 
+    word-break: break-word; /* Перенос слов */ 
     transform: translateY(100%);
     transition: transform .6s;
 }

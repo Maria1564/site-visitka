@@ -1,5 +1,5 @@
 .item  {
-    padding: 23px 66px;
+    padding: 23px 66px 0;
     background: var(--color-dark-primary);
     border-radius: 8px;
     display: flex;
@@ -15,14 +15,17 @@
     color: var(--color-text-light);
     font-weight: 500;
     transition: var(--transition);
-
+    flex-grow: 1;
+    max-width: 265px;
 }
 
 .name {
-    margin-top: 49px;
+    margin-top: 16px;
+    margin-bottom: 49px;
     font-size: 24px;
     color: var(--color-green);
     transition: var(--transition);
+    max-width: 100px;
 }
 
 .double_quote{
