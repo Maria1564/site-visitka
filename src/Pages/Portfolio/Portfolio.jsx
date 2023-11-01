@@ -1,8 +1,11 @@
 import React from 'react'
+import Wrapper from '../../layouts/Wrapper/Wrapper'
 
 const Portfolio = () => {
   return (
-    <div>Portfolio</div>
+    <>
+      <Wrapper text="Портфолио"/>
+    </>
   )
 }
 

@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import Wrapper from "../../layouts/Wrapper/Wrapper";
+import CompanyHistory from "./CompanyHistory/CompanyHistory";
+import Team from "./Team/Team";
 
 const AboutUs = () => {
   return (
-    <div>AboutUs</div>
-  )
-}
+    <>
+      <Wrapper text="О нас" />
+      <CompanyHistory/>
+      <Team />
+    </>
+  );
+};
 
-export default AboutUs
+export default AboutUs;

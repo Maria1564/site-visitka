@@ -1,8 +1,12 @@
 import React from 'react'
+import Wrapper from '../../layouts/Wrapper/Wrapper'
+
 
 const Reviews = () => {
   return (
-    <div>Reviews</div>
+    <>
+      <Wrapper text="Отзывы"/>
+    </>
   )
 }
 

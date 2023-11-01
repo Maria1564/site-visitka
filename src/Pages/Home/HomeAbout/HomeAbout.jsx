@@ -2,26 +2,27 @@ import React from "react";
 import s from "./HomeAbout.module.css";
 import { Button } from "../../../components/ui";
 import TeamItems from "./TeamItems/TeamItems";
-
+import  { Leha, Denis, Katya, Dimas } from "../../../assets/img/imgTeam"
+ 
 const team = [
   {
     id: 1,
-    src: require("../../../assets/img/Лёха.png"),
+    src: Leha,
     alt: "Лёха",
   },
   {
     id: 2,
-    src: require("../../../assets/img/Денис.png"),
+    src: Denis,
     alt: "Денис",
   },
   {
     id: 3,
-    src: require("../../../assets/img/Катя.png"),
+    src: Katya,
     alt: "Катя",
   },
   {
     id: 4,
-    src: require("../../../assets/img/Димас.png"),
+    src: Dimas,
     alt: "Димас",
   },
 ];

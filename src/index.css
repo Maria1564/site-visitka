@@ -35,7 +35,6 @@ body {
     background: var(--color-dark-primary);
 }
 
-
 .container {
     max-width: var(--container-width-xl);
     margin: 0 auto;
@@ -54,6 +53,7 @@ main {
 
 h1{
     font-size: 36px;
+    color: var(--color-text-light);
 }
 
 h2 {
@@ -72,7 +72,7 @@ section  {
     padding-bottom: 65px;
 }
 
-section > h2,
+section  h2,
 .section_title{
     max-width: 280px;
     text-align: center;
@@ -83,7 +83,6 @@ section > h2,
 .section_title {
     position: relative;
 }
-
 
 .section_title::after {
     content: "";
@@ -98,7 +97,6 @@ section > h2,
 
 img {
     display: block;
-    width: 100% ;
     object-fit: cover;
 }
 
