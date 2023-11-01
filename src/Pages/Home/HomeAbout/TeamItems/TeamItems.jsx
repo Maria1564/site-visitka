@@ -5,7 +5,7 @@ import { Avatar } from "../../../../components/ui";
 
 const TeamItems = ({src, alt }) => {
   return (
-    <div>
+    <div className={s.item}>
       <Avatar src={src} alt={alt} />
       <p className={s.name}>{alt}</p>
     </div>
