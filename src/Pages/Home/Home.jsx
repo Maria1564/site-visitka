@@ -6,7 +6,7 @@ import HomeReviews from "./HomeReviews/HomeReviews";
 
 const Home = () => {
   return (
-    <div className="Home">
+    <div className={s.Home}>
       <div className={s.wrapper}>
         <div className="container">
           <div className={s.wrapper_content}>
