@@ -38,13 +38,13 @@ const Reviews = () => {
       <Wrapper text="Отзывы" />
       <div className={s.reviews}>
         <div className="container">
-          <div className={s.box}>
+            <div className={s.wrapper}>
             {
               reviews.map(({id, name, review})=> (
                 <Review key={id} name={name} review={review}/>
               ))
             }
-          </div>
+            </div>
         </div>
       </div>
     </>

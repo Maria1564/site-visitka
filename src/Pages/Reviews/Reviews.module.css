@@ -1,13 +1,5 @@
-.box {
-    height: 640px;
-    max-width: 780px;
-    border: 1px solid var(--color-green);
-    border-radius: 8px;
-    padding: 20px 36px 20px 18px;
+.wrapper {
     margin: 62px auto 75px;
-    overflow-y: scroll;
-    display: flex;
-    flex-direction: column;
-    gap: 38px;
+    max-width: max-content;
 }
 
