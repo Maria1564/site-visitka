@@ -16,3 +16,11 @@
 .team p {
     color: var(--color-text-light);
 }
+
+
+
+@media screen and (max-width: 1035px) {
+    .team {
+        gap: 60px;
+    }
+}

@@ -55,4 +55,10 @@
     transform: translateY(0%);
 }
 
+@media screen and (max-width: 1470px) {
+    .card {
+        width: 100%;
+        height: 373px
+    }
+}
 

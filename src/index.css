@@ -11,9 +11,9 @@
     --transition: all 400ms;
 
     --container-width-xl: 1560px;
-    --container-width-lg: 75%;
+    /* --container-width-lg: 75%;
     --container-width-md: 86%;
-    --container-width-sm: 90%;
+    --container-width-sm: 90%; */
 }
 
 *, *::after, *::before {
@@ -104,4 +104,18 @@ img {
     display: flex;
     flex-direction: column;
     height: 100vh;
+}
+
+
+
+@media screen and (max-width: 1344px){
+    .container {
+        max-width: 85%;
+    }
+}
+
+@media screen and (max-width: 1210px){
+    .container {
+        max-width: 95%;
+    }
 }
