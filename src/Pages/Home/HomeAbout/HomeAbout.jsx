@@ -2,30 +2,8 @@ import React from "react";
 import s from "./HomeAbout.module.css";
 import { Button } from "../../../components/ui";
 import TeamItems from "./TeamItems/TeamItems";
-import  { Leha, Denis, Katya, Dimas } from "../../../assets/img/imgTeam"
- 
-const team = [
-  {
-    id: 1,
-    src: Leha,
-    alt: "Лёха",
-  },
-  {
-    id: 2,
-    src: Denis,
-    alt: "Денис",
-  },
-  {
-    id: 3,
-    src: Katya,
-    alt: "Катя",
-  },
-  {
-    id: 4,
-    src: Dimas,
-    alt: "Димас",
-  },
-];
+import { team } from "../../../helpers/data";
+
 
 const HomeAbout = () => {
   return (

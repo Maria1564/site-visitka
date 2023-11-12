@@ -2,24 +2,8 @@ import React from 'react'
 import s from "./HomeReviews.module.css"
 import { Button } from '../../../components/ui'
 import Review from './Review/Review'
+import { reviewsPageHome } from '../../../helpers/data'
 
-const reviews= [
-    {
-        id:1, 
-        review: "Хорошие специалисты. Сделали всё очень качественно.",
-        name: "Даня"
-    },
-    {
-        id:2, 
-        review: "Круто получилось!",
-        name: "Анна"
-    },
-    {
-        id:3, 
-        review: "Всё супер. Всем советую.",
-        name: "Витя"
-    },
-]
 
 const HomeReviews = () => {
   return (
@@ -28,7 +12,7 @@ const HomeReviews = () => {
             <div className="wrapper">
             <h2 className={`section_title ${s.dark}`}>Отзывы</h2>
             <div className={s.reviews}>
-                {reviews.map(({id, review, name})=>(
+                {reviewsPageHome.map(({id, review, name})=>(
                     <Review key={id} review={review} name={name}/>
                 ))}
             </div>
