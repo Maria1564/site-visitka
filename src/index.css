@@ -51,6 +51,12 @@ main {
     flex-grow: 1;
 }
 
+span {
+    color: var(--color-text-light);
+    font-size: 20px;
+    font-weight: 500;
+}
+
 h1{
     font-size: 36px;    
     color: var(--color-text-light);

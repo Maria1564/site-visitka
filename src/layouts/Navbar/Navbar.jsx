@@ -1,14 +1,14 @@
 import React from 'react'
 import s from "./Navbar.module.css"
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 
 const setActive = ({isActive})=>isActive? s.active: ""
 const Navbar = () => {
   return (
     <header>
-      <span className={s.logo}>
+      <Link to="/" className={s.logo}>
         FastTafting
-      </span>
+      </Link>
       <nav >
         <ul className={s.menu}>
           <li><NavLink to="/" className={setActive} >Главная</NavLink></li>

@@ -6,7 +6,7 @@ const Advantages = () => {
     <section className={s.advantages_section}>
       <div className="container">
         <div className="wrapper">
-          <h2 className={s.advantages_title}>Почему стоит выбрать нас:</h2>
+          <h2 className={s.advantages_title}>Почему стоит выбрать нас</h2>
           <div className={s.advantages}>
             <div className={s.item}>
               <p className={s.main_text}>+100</p>
