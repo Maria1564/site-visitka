@@ -23,7 +23,9 @@
 }
 
 .text span {
-    color: var(--color-green)
+    color: var(--color-green);
+    font-size: 40px;
+    font-weight: 700;
 }
 
 .img_bg{
